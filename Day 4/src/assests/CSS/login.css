@@ -1,0 +1,151 @@
+/* LoginPage.css */
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f5f5f5;
+}
+
+.login-form {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+  padding: 40px;
+  width: 320px;
+  text-align: center;
+  margin-right: 20px;
+}
+
+.gif-container {
+  margin-left: 20px;
+}
+
+.login-form h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.login-form input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.btn-login {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn-login:hover {
+  background-color: #0056b3;
+}
+
+.forgot-password {
+  font-size: 14px;
+  color: #666;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.forgot-password:hover {
+  color: #333;
+}
+
+
+/* Add this CSS to your stylesheet */
+.error-popup {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #ffcccc; /* Background color for the error message */
+  padding: 16px;
+  border: 1px solid #ff0000; /* Red border */
+  border-radius: 4px;
+  box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.5); /* Drop shadow for the popup */
+  z-index: 1000; /* Ensure it's on top of other elements */
+  text-align: center;
+}
+
+.error-message {
+  color: #ff0000; /* Red text color for the error message */
+  margin-bottom: 8px;
+}
+
+/* Style for the close button */
+.error-popup button {
+  background-color: #ff0000; /* Red button background color */
+  color: #ffffff; /* White text color for the button */
+  border: none;
+  padding: 8px 16px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.error-popup button:hover {
+  background-color: #cc0000; /* Darker red on hover */
+}
+
+/* Add this CSS to your stylesheet */
+.success-popup {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #66ff99; /* Background color for the success message */
+  padding: 16px;
+  border: 1px solid #00cc00; /* Green border */
+  border-radius: 4px;
+  box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.5); /* Drop shadow for the popup */
+  z-index: 1000; /* Ensure it's on top of other elements */
+  text-align: center;
+  animation: slideIn 1s forwards, rollOut 2s linear 2s forwards; /* Animation properties */
+}
+
+.success-message {
+  color: #00cc00; /* Green text color for the success message */
+  margin-bottom: 8px;
+}
+
+/* Rolling time bar animation */
+@keyframes rollOut {
+  0% {
+    width: 100%;
+  }
+  100% {
+    width: 0%;
+  }
+}
+
+@keyframes slideIn {
+  0% {
+    transform: translate(-50%, -50%) scaleX(0);
+  }
+  100% {
+    transform: translate(-50%, -50%) scaleX(1);
+  }
+}
+
+/* Style for the close button */
+.success-popup button {
+  background-color: #00cc00; /* Green button background color */
+  color: #ffffff; /* White text color for the button */
+  border: none;
+  padding: 8px 16px;
+  cursor: pointer;
+  border-radius: 4px;
+  margin-top: 16px;
+}
+
+.success-popup button:hover {
+  background-color: #009900; /* Darker green on hover */
+}

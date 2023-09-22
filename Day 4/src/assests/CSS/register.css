@@ -1,0 +1,104 @@
+/* Register.css */
+
+/* Container for the entire registration page */
+.register-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f5f5f5;
+  }
+  
+  /* Base style for the registration form */
+  .register-form {
+    width: 380px;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.5s;
+    transform-style: preserve-3d;
+  }
+  
+  /* Styling for the front side of the form (customer registration) */
+  .register-form.customer {
+    transform: rotateY(0deg);
+  }
+  
+  /* Styling for the back side of the form (artisan registration) */
+  .register-form.artisan {
+    transform: rotateY(180deg);
+  }
+  
+  /* Header style */
+  .register-form h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  /* Input fields */
+  .register-form input {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  /* Styling for gender selection buttons */
+  .register-form label {
+    display: block;
+    margin-top: 10px;
+  }
+  
+  .register-form select {
+    width: 95%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #fff;
+  }
+  
+  /* Back to Login link */
+  .back-to-login {
+    text-align: center;
+    margin-top: 10px;
+    cursor: pointer;
+    color: #007bff;
+    text-decoration: underline;
+  }
+  
+  /* Link hover effect */
+  .back-to-login:hover {
+    color: #0056b3;
+  }
+.register-form button {
+    display: block; 
+    margin: 0 auto; 
+    width: 40%;
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Hover effect for the registration button */
+  .register-form button:hover {
+    background-color: #0056b3;
+  }
+  .login {
+    font-size: 14px;
+    color: #0056b3;
+    cursor: pointer;
+    transition: color 0.3s ease;
+  }
+  
+  .login:hover {
+    color: #007bff;
+  }
+  
+    
