@@ -14,8 +14,7 @@ Welcome to Artisans Alley, an immersive e-commerce platform meticulously crafted
 - Usage
 - Installation
 - Technologies Used
-- Contributing
-- License
+
 
 ## Introduction
 
