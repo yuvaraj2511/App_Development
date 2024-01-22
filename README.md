@@ -84,13 +84,7 @@ For detailed instructions on setting up and running Artisans Alley, please refer
 - JWT
 - Hooks
 
-## Contributing
 
-Become a part of the Artisans Alley community! Contribute by reporting issues, suggesting improvements, or submitting pull requests. Refer to our [Contributing Guidelines](CONTRIBUTING.md) for more details.
-
-## License
-
-Artisans Alley is open-source software licensed under the [MIT License](LICENSE).
 
 ---
 
